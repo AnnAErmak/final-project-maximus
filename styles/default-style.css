@@ -1,0 +1,75 @@
+@font-face {
+    font-weight: 400;
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700; /* Соответствует значению bold */
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Philosopher;
+    src: url("../fonts/Philosopher-Bold.ttf");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: AlegreyaSans;
+    src: url("../fonts/AlegreyaSans-Regular.ttf");
+}
+@font-face {
+    font-weight: 600;
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+:root {
+    --main-text-color: rgba(126, 126, 126, 1);
+    --black-text-color: #202020;
+    --gray-text-color: #7D808A;
+    --main-green-color: #008139;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--main-text-color);
+}
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 30px;
+}
