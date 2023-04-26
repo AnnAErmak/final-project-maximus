@@ -1,10 +1,31 @@
+.barn{
+    display: none;
+}
+.trees{
+    display: none;
+}
+.gull-revers{
+    display: none;
+}
+.little-horse{
+    display: none;
+}
+.bush-right-img{
+    display: none;
+}
+.clouds-img{
+    display: none;
+}
+.btn-menu{
+    display: none;
+}
 .header{
     position: relative;
     min-height: 948px;
     background-image: url("../img/header-img1920/background.png");
-    background-position: center, left bottom;
-    background-size: cover, cover;
-    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .header_container{
     display: flex;
@@ -78,7 +99,8 @@
     left: 1409px;
     top: 157px;
 }
-.clouds{
+.clouds-img{
+    display: block;
     position: absolute;
     width: 1920px;
     height: 170px;
@@ -92,7 +114,8 @@
     left: 0;
     top: 449px;
 }
-.bush-right{
+.bush-right-img{
+    display: block;
     position: absolute;
     width: 167px;
     height: 632px;
@@ -131,8 +154,8 @@
     /*border-bottom: 1px solid #8F8F8F;*/
 }
 .btn{
-    width: 218px;
-    height: 60px;
+    width: 270px;
+    height: 70px;
     background: linear-gradient(180deg, #9BCFFF 0%, #FFF383 0.01%, #FFC700 100%), linear-gradient(180deg, #7EB2FF 0%, #0057FF 100%);
     box-shadow: 0px 4px 0px #C89C00;
     border-radius: 5px;
@@ -152,3 +175,457 @@
     background: linear-gradient(360deg, #9BCFFF 0%, #FFE456 0.01%, #FFB800 100%), linear-gradient(-180deg, #7EB2FF 0%, #0057FF 100%);
 }
 
+@media (max-width: 1000px){
+    .container{
+        max-width: 960px;
+        /*margin: 0 20px;*/
+    }
+    .header{
+        min-height: 620px;
+        background-image: url("../img/header-img1920/background1000.png");
+    }
+    .header__content{
+        padding-top: 51px;
+    }
+    .header__title{
+        margin-bottom: 30px;
+        font-size: 47px;
+        line-height: 107%;
+    }
+    .header__descr{
+        margin-bottom: 37px;
+        font-size: 20px;
+        line-height: 140%;
+        max-width: 520px;
+    }
+    .btn {
+        width: 218px;
+        height: 60px;
+        font-size: 13px;
+        line-height: 32px;
+    }
+    .horse{
+        width: 365px;
+        height: 437px;
+        left: 616px;
+        top: 188px;
+    }
+    .bush-left{
+        width: 100px;
+        height: 207px;
+        left: 0px;
+        top: 418px;
+    }
+    .bush-right{
+        position: absolute;
+        width: 61px;
+        height: 230px;
+        left: 939px;
+        top: 402px;
+        background-image: url("../img/header-img1920/bush-right.png");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bush-right-img{
+        display: none;
+    }
+    .clouds{
+        position: absolute;
+        width: 1000px;
+        height: 135px;
+        background-image: url("../img/header-img1920/clouds.png");
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        left: 0px;
+        top: 501px;
+    }
+    .clouds-img{
+        display: none;
+    }
+    .gull{
+        width: 165px;
+        height: 52px;
+        left: 816px;
+        top: 119px;
+    }
+    .barn{
+        display: block;
+        position: absolute;
+        width: 259px;
+        height: 116px;
+        left: 280px;
+        top: 452px;
+    }
+    .trees{
+        display: block;
+        position: absolute;
+        width: 212px;
+        height: 157px;
+        left: 75px;
+        top: 408px;
+    }
+    .little-horse{
+        display: block;
+        position: absolute;
+        width: 114px;
+        height: 111px;
+        left: 503px;
+        top: 445px;
+    }
+
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 728px;
+    }
+    .logo img{
+        width: 120px;
+        height: 29px;
+        margin-left: -20px;
+    }
+    .nav__link{
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .nav__list{
+        gap:28px;
+        margin-right: 40px;
+    }
+    .active_section::after{
+        max-width: 32px;
+        top: 20px;
+    }
+    .nav__link__tel{
+        font-size: 14px;
+        line-height: 16px;
+        background-size:13px 13px;
+        padding-left: 18px;
+        margin-bottom: 7px;
+    }
+    .nav__link__tel~p{
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .header__content{
+        padding-top: 41px;
+    }
+    .header__title{
+        margin-bottom: 20px;
+        font-size: 37px;
+        line-height: 41px;
+    }
+    .header__descr {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 350px;
+        padding-left: 25px;
+    }
+    .header__descr::after {
+        top: 10px;
+        width: 15px;
+    }
+    .btn {
+        width: 180px;
+        height: 45px;
+        font-size: 10px;
+        line-height: 32px;
+    }
+
+    .horse{
+        width: 368px;
+        height: 371px;
+        left: 377px;
+        top: 105px;
+    }
+    .bush-left{
+        width: 68px;
+        height: 141px;
+        left: -12px;
+        top: 359px;
+    }
+    .bush-right{
+        width: 42px;
+        height: 160px;
+        left: 726px;
+        top: 340px;
+    }
+    .clouds{
+        width: 767px;
+        height: 135px;
+        left: 0;
+        top: 355px;
+
+    }
+    .gull{
+        width: 126px;
+        height: 40px;
+        left: 602px;
+        top: 95px;
+    }
+
+    .barn{
+        width: 207px;
+        height: 93px;
+        left: 127px;
+        top: 348px;
+    }
+    .trees{
+        width: 158px;
+        height: 117px;
+        left: -18px;
+        top: 333px;
+    }
+    .little-horse{
+        width: 114px;
+        height: 111px;
+        left: 299px;
+        top: 330px;
+    }
+    .header{
+        min-height: 450px;
+        background-image: url("../img/header-img1920/background1000.png");
+    }
+}
+@media (max-width: 480px){
+    .container{
+        max-width: 460px;
+    }
+    .logo{
+        margin-top: 15px;
+    }
+    .logo img{
+        width: 89px;
+        height: 29px;
+        margin-left: 0;
+    }
+    .nav__list{
+        display: none;
+    }
+    .schedule{
+        margin-top: 15px;
+    }
+    .btn-menu{
+        margin-top: 15px;
+        display: block;
+        position: relative;
+        width: 77px;
+        height: 29px;
+        border: 1px solid var(--main-green-color);
+        border-radius: 3px;
+        background: transparent;
+        font-size: 15px;
+        line-height: 15px;
+        color: var(--black-text-color);
+        cursor: pointer;
+        padding-left: 25px;
+    }
+    .btn-menu i{
+        position: absolute;
+        margin-left: 10px;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 10px;
+        height: 2px;
+        margin-top: -2px;
+        background-color: var(--main-green-color);
+    }
+    .btn-menu i:before,
+    .btn-menu i:after {
+        position: relative;
+        display: block;
+        width: 10px;
+        height: 2px;
+        content: '';
+        background-color: var(--main-green-color);
+    }
+    .btn-menu i:before {
+        top: -4px;
+    }
+    .btn-menu i:after {
+        bottom: -2px;
+    }
+    .nav__link__tel{
+        font-size: 11px;
+        line-height: 13px;
+        background-size:10px 10px;
+        padding-left: 16px;
+        margin-bottom: 3px;
+    }
+    .nav__link__tel~p{
+        font-size: 9px;
+        line-height: 11px;
+    }
+    .header_container{
+        justify-content: start;
+    }
+    .btn-menu{
+        margin-left: 24px;
+        margin-right: 160px;
+    }
+    .header__title{
+        width: 389px;
+        padding-top: 106px;
+        padding-bottom: 15px;
+        margin: 0 auto;
+        font-size: 33px;
+        line-height: 37px;
+    }
+    .header__descr{
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 10px;
+        margin:0 auto;
+        padding-bottom: 20px;
+
+    }
+    .header__descr::after {
+        top: 0px;
+        left: 50%;
+        width: 15px;
+    }
+    .header section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .horse{
+        width: 160px;
+        height: 190px;
+        left: 271px;
+        top: 425px;
+    }
+    .bush-left{
+        width: 68px;
+        height: 141px;
+        left: -12px;
+        top: 500px;
+    }
+    .bush-right{
+        width: 34px;
+        height: 131px;
+        left: 445px;
+        top: 500px;
+    }
+    .clouds{
+        width: 480px;
+        height: 51px;
+        left: 0px;
+        top: 590px;
+    }
+    .gull{
+        width: 101px;
+        height: 32px;
+        left: 18px;
+        top: 100px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    .barn{
+        width: 207px;
+        height: 93px;
+        left: -11px;
+        top: 492px;
+    }
+    .trees{
+        width: 158px;
+        height: 117px;
+        left: -79px;
+        top: 462px;
+    }
+    .little-horse{
+        width: 93px;
+        height: 90px;
+        left: 174px;
+        top: 481px;
+    }
+    .header{
+        min-height: 642px;
+        background-image: url("../img/header-img1920/background1000.png");
+    }
+}
+@media (max-width: 320px){
+    .container{
+        max-width: 300px;
+    }
+    .schedule{
+        display: none;
+    }
+    .btn-menu{
+        margin-left: 134px;
+        padding-right: 10px;
+    }
+    .header__title{
+        padding-top: 77px;
+        padding-bottom: 15px;
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 27px;
+        width: 277px;
+    }
+    .header__descr{
+        font-size: 13px;
+        line-height: 18px;
+        padding: 10px 0 20px 0;
+        margin:0 auto;
+    }
+
+    .horse{
+        width: 157px;
+        height: 188px;
+        left: 99px;
+        top: 380px;
+        z-index: 2;
+    }
+    .bush-left{
+        width: 68px;
+        height: 141px;
+        left: -28px;
+        top: 456px;
+        z-index: 2;
+    }
+    .bush-right{
+        width: 34px;
+        height: 131px;
+        left: 286px;
+        top: 465px;
+    }
+    .clouds{
+        width: 319px;
+        height: 51px;
+        left: 0px;
+        top: 540px;
+    }
+    .gull{
+        width: 101px;
+        height: 32px;
+        left: 18px;
+        top: 100px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    .barn{
+        width: 207px;
+        height: 93px;
+        left: -81px;
+        top: 451px;
+        z-index: 1;
+    }
+    .trees{
+        width: 158px;
+        height: 117px;
+        left: -130px;
+        top: 410px;
+        z-index: 2;
+    }
+    .little-horse{
+        display: none;
+    }
+    .header{
+        min-height: 590px;
+        background-image: url("../img/header-img1920/background1000.png");
+    }
+}
