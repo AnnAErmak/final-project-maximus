@@ -1,0 +1,55 @@
+.about h2{
+    font-family: 'Philosopher';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #363434;
+    margin-bottom: 89px;
+}
+
+.about-img{
+    position: relative;
+    grid-column: 6 span;
+}
+.about-img img{
+    position: absolute;
+    top:0;
+    left: -245px;
+    width: 871px;
+    height: 529px;
+}
+.about-text{
+    grid-column: 6 span;
+    display: flex;
+    flex-direction: column;
+}
+.achievements{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 27px;
+    grid-row-gap: 24px;
+    padding-left: 40px;
+    padding-bottom: 41px;
+}
+.achievements-item h3{
+    font-family: 'Philosopher';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 160%;
+    color: var(--main-green-color);
+}
+.achievements-item p{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #0B0B0B;
+}
+.about-p{
+    font-size: 15px;
+    line-height: 28px;
+    color: #7E7E7E;
+    padding-left: 32px;
+}

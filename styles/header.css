@@ -128,6 +128,7 @@
 }
 .header__title{
     font-family: 'Philosopher';
+    font-weight: 700;
     font-size: 57px;
     line-height: 107%;
     color: #000;
@@ -548,7 +549,7 @@
         background-image: url("../img/header-img1920/background1000.png");
     }
 }
-@media (max-width: 320px){
+@media (max-width: 320px) {
     .container{
         max-width: 300px;
     }

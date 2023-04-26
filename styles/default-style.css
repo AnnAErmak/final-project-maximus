@@ -21,6 +21,11 @@
     font-family: Philosopher;
     src: url("../fonts/Philosopher-Bold.ttf");
 }
+@font-face {
+    font-weight: 400;
+    font-family: Philosopher;
+    src: url("../fonts/Philosopher-Regular.ttf");
+}
 
 @font-face {
     font-weight: 400;
