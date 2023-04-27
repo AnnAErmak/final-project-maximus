@@ -3,6 +3,11 @@
     font-family: Roboto;
     src: url("../fonts/Roboto-Regular.ttf");
 }
+@font-face {
+    font-weight: 500;
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
 
 @font-face {
     font-weight: 700; /* Соответствует значению bold */

@@ -48,8 +48,93 @@
     color: #0B0B0B;
 }
 .about-p{
+    grid-column: 7 / 6 span;
     font-size: 15px;
     line-height: 28px;
     color: #7E7E7E;
     padding-left: 32px;
+}
+@media (max-width: 1000px){
+    .about h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 61px;
+        margin-top: 90px;
+    }
+    .achievements{
+        grid-row-gap: 30px;
+    }
+    .achievements-item h3{
+        font-size: 32px;
+        line-height: 160%;
+    }
+    .achievements-item p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about-p{
+        font-size: 13px;
+        line-height: 20px;
+        grid-column: 12 span;
+        padding: 0;
+    }
+    .about-img img{
+        top: -40px;
+        left: 0;
+        width: 513px;
+        height: 317px;
+    }
+}
+@media (max-width: 768px){
+    .about h2 {
+        font-size: 27px;
+        line-height: 27px;
+        margin-bottom: 38px;
+        margin-top: 90px;
+    }
+    .achievements{
+        grid-row-gap: 30px;
+        padding-left: 0;
+    }
+    .achievements-item p{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .about-img img{
+        top: -5px;
+        left: -50px;
+        width: 425px;
+        height: 330px;
+    }
+}
+@media (max-width: 480px){
+    .about-img{
+        display: none;
+    }
+    .about-text{
+        grid-column: 12 span;
+        text-align: center;
+    }
+    .about h2 {
+        margin-bottom: 40px;
+    }
+    .achievements-item h3{
+        font-size: 27px;
+    }
+    .achievements-item p{
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+
+}
+@media (max-width: 320px){
+    .about h2 {
+        font-size: 21px;
+        line-height: 21px;
+    }
+    .achievements{
+        display: flex;
+        flex-direction: column;
+    }
 }
