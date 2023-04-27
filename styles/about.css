@@ -45,7 +45,7 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 25px;
-    color: #0B0B0B;
+    color: var(--other-black-text-color);
 }
 .about-p{
     grid-column: 7 / 6 span;

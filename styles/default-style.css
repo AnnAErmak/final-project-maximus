@@ -46,7 +46,10 @@
 :root {
     --main-text-color: rgba(126, 126, 126, 1);
     --black-text-color: #202020;
+    --other-black-text-color: #0B0B0B;
     --gray-text-color: #7D808A;
+    --other-gray-text-color: #7E7E7E;
+    --color-title: #363434;
     --main-green-color: #008139;
 }
 

@@ -1,0 +1,42 @@
+.whe-we h2{
+    font-family: 'Philosopher';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color:var(--color-title);
+    padding-top: 185px;
+    padding-bottom: 25px;
+}
+.whe-we__sub-title{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: var(--color-title);
+    padding-bottom: 76px;
+}
+
+.advantage-item{
+    grid-column: 3 span;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.advantage-item h4{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    color: var(--other-black-text-color);
+    padding-top: 10px;
+    padding-bottom: 26px;
+}
+.advantage-item p{
+    font-size: 15px;
+    line-height: 151.7%;
+    color: #7E7E7E;
+}
+
