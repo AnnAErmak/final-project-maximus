@@ -9,12 +9,6 @@
     padding-bottom: 25px;
 }
 .whe-we__sub-title{
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    color: var(--color-title);
     padding-bottom: 76px;
 }
 
@@ -45,10 +39,6 @@
         padding-bottom: 10px;
         font-size: 30px;
         line-height: 36px;
-    }
-    .whe-we__sub-title{
-        font-size: 13px;
-        line-height: 15px;
     }
     .advantage-item h4{
         font-size: 15px;

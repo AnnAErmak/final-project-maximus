@@ -1,3 +1,89 @@
+.events{
+    position: relative;
+    background-image:  url("../img/events/sky.png"),
+                        url("../img/events/bg-events.png"),
+                        url("../img/events/nebo.png");
+    background-position: bottom, top, bottom;
+    background-size: contain, cover, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    padding-bottom: 271px;
+}
+.events-tittle{
+    padding-top: 200px;
+    padding-bottom: 25px;
+}
+.events-sub-title{
+    padding-bottom: 75px;
+}
+.event-content{
+    grid-template-row: repeat(2, 1fr);
+    row-gap: 55px;
+    margin-bottom: 50px;
+}
+.event-content__item{
+    position: relative;
+    grid-column: 4 span;
+    background: #FFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 244px;
+}
+
+.event-content__item img{
+    position: absolute;
+    top: -25px;
+    left: 25px;
+    border-radius: 5px;
+}
+.event-content__item h4{
+    position: relative;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    color: var(--color-title);
+    padding-bottom: 25px;
+}
+.event-content__item h4:after{
+    content: '';
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    width: 26px;
+    height: 1px;
+    background-color: var(--main-green-color);
+
+}
+.event-content__item p{
+    font-size: 15px;
+    line-height: 21px;
+    color: var(--other-gray-text-color);
+
+    padding: 25px 45px 45px 45px;
+}
+.events-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.girl-with-horse{
+    position: absolute;
+    width: 305px;
+    height: 530px;
+    left: -91px;
+    top: 1179px;
+    z-index: 1;
+}
+.boy-with-horse{
+    position: absolute;
+    width: 372px;
+    height: 532px;
+    left: 1202px;
+    top: 1174px;
+    z-index: 1;
+}
 @media (max-width: 1000px){
 
 }
