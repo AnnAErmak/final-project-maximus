@@ -15,12 +15,12 @@
 .events-sub-title{
     padding-bottom: 75px;
 }
-.event-content{
+.event-list{
     grid-template-row: repeat(2, 1fr);
     row-gap: 55px;
     margin-bottom: 50px;
 }
-.event-content__item{
+.event-list__item{
     position: relative;
     grid-column: 4 span;
     background: #FFF;
@@ -31,13 +31,13 @@
     padding-top: 244px;
 }
 
-.event-content__item img{
+.event-list__item img{
     position: absolute;
     top: -25px;
     left: 25px;
     border-radius: 5px;
 }
-.event-content__item h4{
+.event-list__item h4{
     position: relative;
     font-weight: 500;
     font-size: 23px;
@@ -45,7 +45,7 @@
     color: var(--color-title);
     padding-bottom: 25px;
 }
-.event-content__item h4:after{
+.event-list__item h4:after{
     content: '';
     position: absolute;
     top: 52px;
@@ -55,7 +55,7 @@
     background-color: var(--main-green-color);
 
 }
-.event-content__item p{
+.event-list__item p{
     font-size: 15px;
     line-height: 21px;
     color: var(--other-gray-text-color);
@@ -72,15 +72,15 @@
     position: absolute;
     width: 305px;
     height: 530px;
-    left: -91px;
-    top: 1179px;
+    left: calc(1% - 91px);
+    top: calc(100% - 528px);
     z-index: 1;
 }
 .boy-with-horse{
     position: absolute;
     width: 372px;
     height: 532px;
-    left: 1202px;
+    left: calc(100% - 100px);
     top: 1174px;
     z-index: 1;
 }

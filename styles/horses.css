@@ -1,0 +1,28 @@
+.horses h2{
+    padding-top: 150px;
+    padding-bottom: 95px;
+}
+.horses-top{
+    padding-bottom: 60px;
+}
+.horses-list-items{
+    padding-top: 430px;
+}
+.horses-list-items img{
+    width: 320px;
+    height: 421px;
+}
+
+@media (max-width: 1000px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 480px){
+
+
+}
+@media (max-width: 320px){
+
+}

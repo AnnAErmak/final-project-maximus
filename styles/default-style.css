@@ -102,6 +102,90 @@ li {
     text-align: center;
     color: var(--color-title);
 }
+.block-btn-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: content-box;
+    margin: 0 auto;
+}
+.btn-slider-big-left,
+.btn-slider-big-right{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 1px 0px #C89C00;
+    border-radius: 50%;
+    border: none;
+}
+.btn-slider-big-left{
+    margin-right: 27px;
+    background: url("../img/visitors/arrow-left.svg") center no-repeat, linear-gradient(180deg, #9BCFFF 0%, #FFF8B6 0.01%, #FFC700 100%); ;
+}
+.btn-slider-big-right{
+    margin-left: 11px;
+    background: url("../img/visitors/arrow-right.svg") center no-repeat, linear-gradient(180deg, #9BCFFF 0%, #FFF8B6 0.01%, #FFC700 100%); ;
+}
+.btn-slider-big-left:hover{
+    background: url("../img/visitors/arrow-left.svg") center no-repeat, linear-gradient(180deg, #9BCFFF 0%, #FFE456 0.01%, #FFB800 100%);
+}
+.btn-slider-big-right:hover{
+    background: url("../img/visitors/arrow-right.svg") center no-repeat, linear-gradient(180deg, #9BCFFF 0%, #FFE456 0.01%, #FFB800 100%);
+}
+.btn-slider-small{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+    background: #E1E1E1;
+    margin-right: 15px;
+}
+.active_small_btn{
+    background: #FFC700;
+}
+
+
+.list-item{
+    position: relative;
+    grid-column: 4 span;
+    background: #FFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.list-item img{
+    position: absolute;
+    top: -25px;
+    left: 25px;
+    border-radius: 5px;
+}
+.list-item h4{
+    position: relative;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    color: var(--color-title);
+    padding-bottom: 25px;
+}
+.list-item h4:after{
+    content: '';
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    width: 26px;
+    height: 1px;
+    background-color: var(--main-green-color);
+
+}
+.list-item p{
+    font-size: 15px;
+    line-height: 21px;
+    color: var(--other-gray-text-color);
+    padding: 25px 45px 45px 45px;
+}
+
 @media (max-width: 1000px){
     .title{
         font-size: 30px;
