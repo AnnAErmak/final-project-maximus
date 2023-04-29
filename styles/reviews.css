@@ -1,0 +1,78 @@
+.reviews h2{
+    padding: 140px 0 70px 0;
+}
+.reviews-top{
+    margin-bottom: 60px;
+}
+.reviews-top-item{
+    grid-column: 6 span;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 16px 51px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    padding: 40px 45px 35px 45px;
+    background: url("../img/reviews/quote.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 15% right 10%;
+}
+.reviews-top-item p{
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--color-title);
+    margin-bottom: 15px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-top-item button{
+    padding-left: 30px;
+    margin-bottom: 52px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background: url("../img/reviews/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center right 10%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: start;
+    color: var(--main-green-color);
+}
+.contact{
+    display: flex;
+    gap: 20px;
+}
+.contact > img{
+    width: 45px;
+    height: 45px;
+}
+.contact div p{
+    font-size: 16px;
+    line-height: 21px;
+    color: #101820;
+    margin-bottom: 10px;
+}
+.contact div img{
+    margin-right: 10px;
+}
+.reviews-bottom{
+    margin-bottom: 150px;
+}
+
+@media (max-width: 1000px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 480px){
+
+
+}
+@media (max-width: 320px){
+
+}
