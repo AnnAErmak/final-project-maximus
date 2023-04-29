@@ -48,12 +48,13 @@
     --black-text-color: #202020;
     --other-black-text-color: #0B0B0B;
     --gray-text-color: #7D808A;
+    --orange-text-color: #FF5C00;
     --other-gray-text-color: #7E7E7E;
     --color-title: #363434;
     --main-green-color: #008139;
 }
 
-*{
+*, *::before, *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;

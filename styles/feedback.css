@@ -1,0 +1,133 @@
+.feedback{
+    position: relative;
+    margin-top: 140px;
+    background-image: url("../img/feedback/bg-feetback.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form-feedback form{
+    grid-column: 8 / 4 span;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 16px 51px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    padding: 60px 65px;
+    margin: 140px 0 113px auto;
+    min-width: 547px;
+    justify-content: center;
+    align-items: center;
+}
+.form-feedback form h3 {
+    font-family: 'Philosopher';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: var(--color-title);
+    padding-bottom: 15px;
+}
+.form-feedback form p {
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: var(--other-gray-text-color);
+    padding-bottom: 30px;
+}
+.form-feedback form .feedback-data {
+    width: 330px;
+    height: 61px;
+    background: #FFF;
+    border: 1px solid #8F8F8F;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #363434;
+    padding: 20px 0 20px 21px;
+    margin-bottom: 20px;
+}
+.form-feedback form .feedback-data::placeholder {
+    font-size: 18px;
+    line-height: 21px;
+    color: #A5A5A5;
+}
+.form-feedback form .feedback-data:focus {
+    outline: 0;
+    border: 1px solid #8F8F8F;
+}
+.form-feedback form .feedback-data:invalid {
+    border: 1px solid #FF5C00;
+    border-radius: 5px;
+}
+.error-form-feedback{
+    width: 330px;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: start;
+    color: var(--orange-text-color);
+}
+.form-feedback form .btn{
+    margin-bottom: 30px;
+}
+.checkbox-flex{
+    display: flex;
+    width: 330px;
+    margin-bottom: 10px;
+}
+.checkbox-flex .checkbox{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8A8A8A;
+}
+.checkbox+label a{
+    text-decoration-line:underline;
+    color: #8A8A8A;
+}
+.checkbox-flex .checkbox+label::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid #FF5C00;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+.checkbox:checked+label::before {
+    border: 2px solid #FFC700;
+    background-image: url("../img/feedback/checked.svg");
+    background-size: 13px 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.girl-horse{
+    position: absolute;
+    width: 1674px;
+    height: 644px;
+    left: 0px;
+    top: 208px;
+}
+.bush{
+    position: absolute;
+    width: 297px;
+    height: 371px;
+    left: 1305px;
+    top: 522px;
+}
+.sky-top{
+    position: absolute;
+
+}
+.sky-bottom{
+    position: absolute;
+    left: 0px;
+    top:80%;
+}
