@@ -25,22 +25,24 @@
 <header class="header">
     <img class="horse" src="img/header-img1920/horse.png" alt="image horse">
     <img class="gull" src="img/header-img1920/gull.png" alt="image gull">
-    <div class="clouds"></div>
     <img class="clouds-img" src="img/header-img1920/clouds.png" alt="image clouds">
-
-    <img class="bush-left" src="img/header-img1920/bush-left.png" alt="image bush left">
-    <div class="bush-right"></div>
-    <img class="bush-right-img" src="img/header-img1920/bush-right.png" alt="image bush right">
-    <img class="barn" src="img/header-img1920/barn.png" alt="image barn">
     <img class="trees" src="img/header-img1920/trees.png" alt="image trees">
-    <img class="gull-revers" src="img/header-img1920/gull-revers.png" alt="image gull">
-    <img class="little-horse" src="img/header-img1920/little-horse.png" alt="image little horse">
+    <img class="bush-left" src="img/header-img1920/bush-left.png" alt="image bush left">
+    <img class="bush-right-img" src="img/header-img1920/bush-right.png" alt="image bush right">
+    <picture>
+        <source media="(max-width: 1920px)" srcset="img/header-img1920/barn1920.png">
+        <img class="barn" src="img/header-img1920/barn.png" alt="image little horse">
+    </picture>
+    <picture>
+        <source media="(max-width: 1920px)" srcset="img/header-img1920/little-horse1920.png">
+        <img class="little-horse" src="img/header-img1920/little-horse.png" alt="image little horse">
+    </picture>
     <div class="container header_container">
         <a class="logo">
             <img src="img/logo.svg" alt="Maximus logo"/>
         </a>
         <button class="btn-menu"><i></i>Меню</button>
-        <nav class="nav" title="Main navigation">
+        <nav>
             <ul class="nav__list">
                 <li class="nav__item"><a href="#" class="nav__link active_section">о нас</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">услуги и цены</a></li>
@@ -75,34 +77,38 @@
             </div>
             <div class="about-text">
                 <div class="achievements">
-                    <div class="achievements-item">
+                    <div class="achievements-item achievements-item-1">
                         <h3>1100+</h3>
                         <p>Довольный посетителей за последний год</p>
                     </div>
-                    <div class="achievements-item">
+                    <div class="achievements-item achievements-item-2">
                         <h3>50+</h3>
                         <p>Проведенных мероприятий за 6 месяцев</p>
                     </div>
-                    <div class="achievements-item">
+                    <div class="achievements-item achievements-item-3">
                         <h3>20+</h3>
                         <p>Выпущенных профессиональных спортсменов за 1 год</p>
                     </div>
-                    <div class="achievements-item">
+                    <div class="achievements-item achievements-item-4">
                         <h3>15+</h3>
                         <p>Регулярный занятий в неделю с профессиональными наставниками</p>
                     </div>
                 </div>
             </div>
-            <p class="about-p">
-                Занятия проводятся индивидуально и в группах, стоимость также будет
-                зависеть от ваших навыков и умений. Более выгодные условия предусмотрены
-                для регулярных занятий при покупке абонементов. Для тех, кто хочет
-                отточить своё мастерство, разработаны программы по специализации (конкур,
-                выездка и другие), участие в соревнованиях и чемпионатах. Для самых
-                маленьких любителей лошадей действуют пони-клубы, где ребята учатся ухаживать
-                за животными и ездить на милых и добрых пони.
-            </p>
+
         </div>
+        <p class="about-p">
+            Занятия проводятся индивидуально и в группах, стоимость также будет
+            зависеть от ваших навыков и умений.
+            <span>
+                Более выгодные условия предусмотрены
+            для регулярных занятий при покупке абонементов. Для тех, кто хочет
+            отточить своё мастерство, разработаны программы по специализации (конкур,
+            выездка и другие), участие в соревнованиях и чемпионатах. Для самых
+            маленьких любителей лошадей действуют пони-клубы, где ребята учатся ухаживать
+            за животными и ездить на милых и добрых пони.
+            </span>
+        </p>
     </div>
 </section>
     <section class="whe-we">
