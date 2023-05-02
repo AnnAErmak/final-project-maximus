@@ -117,22 +117,30 @@
             <h4 class="whe-we__sub-title sub-title">Подзаголовок блока</h4>
             <div class="advantage grid">
                 <div class="advantage-item">
-                    <img src="img/why-we/map.png" alt="Карта"/>
+                    <div class="advantage-item-img">
+                        <img src="img/why-we/map.png" alt="Карта"/>
+                    </div>
                     <h4>Удобное расположение</h4>
                     <p>Мы находимся недалеко от автостанции «Восточный» чтобы вам было удобно добираться</p>
                 </div>
                 <div class="advantage-item">
-                    <img src="img/why-we/table.png" alt="Столики"/>
+                    <div class="advantage-item-img">
+                        <img src="img/why-we/table.png" alt="Столики"/>
+                    </div>
                     <h4>Обеденная зона</h4>
                     <p>Имеется столовая, чтобы Вы могли  перекусить и немного отдохнуть. Бесплатно чай, кофе, печенки.</p>
                 </div>
                 <div class="advantage-item">
-                    <img src="img/why-we/watch.png" alt="Часы"/>
+                    <div class="advantage-item-img">
+                        <img src="img/why-we/watch.png" alt="Часы"/>
+                    </div>
                     <h4>Профессиональные тренера</h4>
                     <p>Наши преподаватели имеют награды в конном спорте, и отличные отзывы среди наших учеников</p>
                 </div>
                 <div class="advantage-item">
-                    <img src="img/why-we/car.png" alt="Машина"/>
+                    <div class="advantage-item-img">
+                        <img src="img/why-we/car.png" alt="Машина"/>
+                    </div>
                     <h4>Бесплатная парковка</h4>
                     <p>У нас имеется просторная парковка, чтобы вы могли без проблем припарковать свой автомобиль</p>
                 </div>
@@ -142,16 +150,17 @@
     <section class="events">
         <img class="girl-with-horse" src="img/events/girl-with-horse.png" alt="Девушка с конем">
         <img class="boy-with-horse" src="img/events/boy-with-horse.png" alt="мальчик с конем">
+        <img class="events-sky" src="img/events/sky.png" alt="">
         <div class="container events-container">
             <h2 class="events-tittle title">Направления клуба</h2>
             <h4 class="events-sub-title sub-title">Подзаголовок блока</h4>
             <div class="event-list grid">
-                <div class="event-list__item">
+                <div class="list-item event-list__item">
                     <img src="img/events/img_1.jpg" alt=""/>
                     <h4>Уроки верховой езды</h4>
                     <p>Уроки профессиональной верховой езды для любителей и начинающих</p>
                 </div>
-                <div class="event-list__item">
+                <div class="list-item event-list__item">
                     <img src="img/events/img_2.jpg" alt=""/>
                     <h4>Прогулки верхом с тренером</h4>
                     <p>
@@ -159,12 +168,12 @@
                         на профессиональном уровне под руководством опытных теннеров
                     </p>
                 </div>
-                <div class="event-list__item">
+                <div class="list-item event-list__item">
                     <img src="img/events/img_3.jpg" alt=""/>
                     <h4>Фотосессии</h4>
                     <p>Уроки профессиональной верховой езды для любителей и начинающих</p>
                 </div>
-                <div class="event-list__item">
+                <div class="list-item event-list__item">
                     <img src="img/events/img_4.jpg" alt=""/>
                     <h4>Прогулки верхом с тренером</h4>
                     <p>
@@ -172,12 +181,12 @@
                         на профессиональном уровне под руководством опытных теннеров
                     </p>
                 </div>
-                <div class="event-list__item">
+                <div class="list-item event-list__item">
                     <img src="img/events/img_5.jpg" alt=""/>
                     <h4>Фотосессии</h4>
                     <p>Уроки профессиональной верховой езды для любителей и начинающих</p>
                 </div>
-                <div class="event-list__item">
+                <div class="list-item event-list__item">
                     <img src="img/events/img_6.jpg" alt=""/>
                     <h4>Прогулки верхом с тренером</h4>
                     <p>
@@ -224,6 +233,12 @@
             <div class="container">
                 <div class="horses-list grid">
                     <div class="list-item horses-list-items">
+                        <img src="img/horses/horse_5.jpg" alt="Жазель"/>
+                        <h4>Жазель</h4>
+                        <p>Уроки профессиональной верховой езды для любителей и начинающих</p>
+                        <div></div>
+                    </div>
+                    <div class="list-item horses-list-items">
                         <img src="img/horses/horse_1.jpg" alt="Юджин"/>
                         <h4>Юджин</h4>
                         <p>Уроки профессиональной верховой езды для любителей и начинающих</p>
@@ -237,6 +252,12 @@
                         <img src="img/horses/horse_3.jpg" alt="Циан"/>
                         <h4>Циан</h4>
                         <p>Уроки профессиональной верховой езды для любителей и начинающих</p>
+                    </div>
+                    <div class="list-item horses-list-items">
+                        <img src="img/horses/horse_4.jpg" alt="Хесана"/>
+                        <h4>Хесана</h4>
+                        <p>Уроки профессиональной верховой езды для любителей и начинающих</p>
+                        <div></div>
                     </div>
                 </div>
             </div>
@@ -285,7 +306,31 @@
     </section>
     <section class="reviews">
             <h2 class="title">О нас говорят клиенты</h2>
-            <div class="reviews-top grid container">
+        <div class="container">
+            <div class="reviews-top grid">
+                <div class="reviews-top-item">
+                    <p>
+                        Развивает силу, гибкость и координацию всадника; Выпрямляется
+                        осанка и повышается стрессоустойчивость; Общение с лошадью лечит
+                        умственные отклонения.
+                    </p>
+                    <div class="center">
+                        <button>Подробнее</button>
+                    </div>
+                    <div class="contact">
+                        <img src="img/reviews/foto3.png" alt="photo"/>
+                        <div>
+                            <p>Светлана Мирная</p>
+                            <a href="#">
+                                <img src="img/reviews/instagram.png" alt="icon instagram"/>
+                            </a>
+                            <a href="#">
+                                <img src="img/reviews/vk.png" alt="icon vk">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
                 <div class="reviews-top-item">
                     <p>
                         Развивает силу, гибкость и координацию всадника; Выпрямляется осанка
@@ -330,7 +375,31 @@
                         </div>
                     </div>
                 </div>
+                <div class="reviews-top-item">
+                    <p>
+                        Плюсов до безумия много! Реакция, общение с животным, любовь, понимание,
+                        взаимопонимание, терпение, здесь можно перечислять и перечислять очень
+                        много всего!
+                    </p>
+                    <div class="center">
+                        <button>Подробнее</button>
+                    </div>
+                    <div class="contact">
+                        <img src="img/reviews/foto3.png" alt="photo"/>
+                        <div>
+                            <p>Светлана Мирная</p>
+                            <a href="#">
+                                <img src="img/reviews/instagram.png" alt="icon instagram"/>
+                            </a>
+                            <a href="#">
+                                <img src="img/reviews/vk.png" alt="icon vk">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
             </div>
+        </div>
             <div class="reviews-bottom">
                 <div class="container">
                     <div class="block-btn-slider">

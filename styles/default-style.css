@@ -172,7 +172,7 @@ li {
     content: '';
     position: absolute;
     top: 52px;
-    left: 50%;
+    left: calc(50% - 13px);
     width: 26px;
     height: 1px;
     background-color: var(--main-green-color);

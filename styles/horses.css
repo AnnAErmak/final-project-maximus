@@ -5,7 +5,41 @@
 .horses-top{
     padding-bottom: 60px;
 }
+.horses-list{
+    position: relative;
+}
+.horses-list-items:first-child{
+    position: absolute;
+    width: 370px;
+    top: -40px;
+    left: -400px;
+}
+.horses-list-items:first-child div{
+    position: absolute;
+    width: 370px;
+    height: 621px;
+    top: -26px;
+    left: 0;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.horses-list-items:last-child{
+    position: absolute;
+    width: 370px;
+    top: -40px;
+    left: 1200px;
+}
+.horses-list-items:last-child div{
+    position: absolute;
+    width: 370px;
+    height: 621px;
+    top: -26px;
+    left: 0;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+}
 .horses-list-items{
+    position: relative;
     padding-top: 430px;
 }
 .horses-list-items img{
