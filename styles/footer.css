@@ -35,6 +35,9 @@ footer{
     padding: 2px 0 2px 36px;
     margin-bottom: 28px;
 }
+.contacts p:hover{
+    filter: opacity(80%);
+}
 .address{
     background: url("../img/footer/icon-map.svg") no-repeat left;
 }
@@ -56,9 +59,12 @@ footer{
     justify-content: end;
     gap: 13px;
 }
+/*.social-media a:hover{*/
+/*    background: linear-gradient(180deg, #9BCFFF 0%, #FFC700 0.01%, #FF9900 100%);*/
+/*}*/
 .footer-bottom{
     background: #0B0B0B;
-    padding-top: 25px;
+    padding: 25px 0;
 }
 .flex{
     display: flex;
@@ -83,6 +89,8 @@ footer{
 .footer-menu button{
     width: 201px;
     height: 46px;
+    font-size: 15px;
+    line-height: 18px;
     border: 1px solid #FDE724;
     border-radius: 5px;
     text-align: center;
@@ -90,12 +98,15 @@ footer{
     background: inherit;
     color: #F5F5F5;;
 }
-.footer-a{
+.footer-btn{
     font-size: 13px;
     line-height: 15px;
     text-decoration-line: underline;
     color: #7D808A;
     margin-right: 40px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .sticker{
@@ -124,7 +135,11 @@ footer{
 
 }
 @media (max-width: 768px){
-
+    .footer-menu button {
+        width: 167px;
+        font-size: 13px;
+        line-height: 15px;
+    }
 }
 @media (max-width: 480px){
 

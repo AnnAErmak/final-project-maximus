@@ -66,13 +66,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /*background-image:*/
-    /*        url("../img/header-img1920/trees.png"),*/
-    /*        url("../img/header-img1920/bg-clean.png")*/
-    /*        ;*/
-    /*background-position: center left, center;*/
-    /*background-size: cover, cover;*/
-    /*background-repeat: no-repeat;*/
 }
 .header_container{
     display: flex;
@@ -201,27 +194,7 @@ nav{
     height: 1px;
     background-color: #8F8F8F;
 }
-.btn{
-    width: 270px;
-    height: 70px;
-    background: linear-gradient(180deg, #9BCFFF 0%, #FFF383 0.01%, #FFC700 100%), linear-gradient(180deg, #7EB2FF 0%, #0057FF 100%);
-    box-shadow: 0px 4px 0px #C89C00;
-    border-radius: 5px;
-    border: none;
-    color: #6A5300;
-    font-family: 'Montserrat';
-    font-size: 13px;
-    line-height: 32px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all 0.5s ease-out;
-}
-.btn:hover {
-    background: linear-gradient(180deg, #9BCFFF 0%, #FFE456 0.01%, #FFB800 100%), linear-gradient(180deg, #7EB2FF 0%, #0057FF 100%);
-}
-.btn:focus{
-    background: linear-gradient(360deg, #9BCFFF 0%, #FFE456 0.01%, #FFB800 100%), linear-gradient(-180deg, #7EB2FF 0%, #0057FF 100%);
-}
+
 
 /*@media (min-width: 1450px) and (max-width: 1000px){*/
 @media (max-width: 1000px){

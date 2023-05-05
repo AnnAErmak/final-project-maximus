@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./styles/default-style.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/about.css">
-    <link rel="stylesheet" href="./styles/why-we.css">
+    <link rel="stylesheet" href="styles/advantages.css">
     <link rel="stylesheet" href="./styles/events.css">
     <link rel="stylesheet" href="./styles/visitors.css">
     <link rel="stylesheet" href="./styles/horses.css">
@@ -22,6 +22,11 @@
     <title>Мир лошадей Максимус</title>
 </head>
 <body>
+<!--<div class="block-btn-slider">-->
+<!--    <button class="btn-slider-big-left"></button>-->
+<!--    <input class="slider-btn" type="range" min="0" max="3" value="0" name="range" step="1"/>-->
+<!--    <button class="btn-slider-big-right"></button>-->
+<!--</div>-->
 <header class="header">
     <img class="horse" src="img/header-img1920/horse.png" alt="image horse">
     <img class="gull" src="img/header-img1920/gull.png" alt="image gull">
@@ -44,10 +49,10 @@
         <button class="btn-menu"><i></i>Меню</button>
         <nav>
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link active_section">о нас</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">услуги и цены</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">фотоальбом</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">контакты</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link active_section">о нас</a></li>
+                <li class="nav__item"><a href="#advantages" class="nav__link">услуги и цены</a></li>
+                <li class="nav__item"><a href="#visitors" class="nav__link">фотоальбом</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">контакты</a></li>
             </ul>
             <div class="schedule">
                 <a href="#" class="nav__link__tel">+7(000)000-00-00</a>
@@ -62,13 +67,13 @@
                 Уроки верховой езды, фотосессии и мероприятия в частном конном клубе
                 <strong>г. Санкт-Петербург</strong>
             </p>
-            <button class="btn">записаться</button>
+            <button class="btn-standard">записаться</button>
         </div>
     </section>
 
 </header>
 <main>
-    <section class="about">
+    <section id="about" class="about">
     <div class="container">
         <h2 class="title">О нашем клубе</h2>
         <div class="about-content grid">
@@ -111,35 +116,35 @@
         </p>
     </div>
 </section>
-    <section class="whe-we">
+    <section id="advantages" class="advantages">
         <div class="container">
             <h2 class="title">Почему нас выбирают</h2>
-            <h4 class="whe-we__sub-title sub-title">Подзаголовок блока</h4>
-            <div class="advantage grid">
-                <div class="advantage-item">
-                    <div class="advantage-item-img">
-                        <img src="img/why-we/map.png" alt="Карта"/>
+            <h4 class="advantages__sub-title sub-title">Подзаголовок блока</h4>
+            <div class="advantages grid">
+                <div class="advantages-item">
+                    <div class="advantages-item-img">
+                        <img src="img/advantages/map.png" alt="Карта"/>
                     </div>
                     <h4>Удобное расположение</h4>
                     <p>Мы находимся недалеко от автостанции «Восточный» чтобы вам было удобно добираться</p>
                 </div>
-                <div class="advantage-item">
-                    <div class="advantage-item-img">
-                        <img src="img/why-we/table.png" alt="Столики"/>
+                <div class="advantages-item">
+                    <div class="advantages-item-img">
+                        <img src="img/advantages/table.png" alt="Столики"/>
                     </div>
                     <h4>Обеденная зона</h4>
                     <p>Имеется столовая, чтобы Вы могли  перекусить и немного отдохнуть. Бесплатно чай, кофе, печенки.</p>
                 </div>
-                <div class="advantage-item">
-                    <div class="advantage-item-img">
-                        <img src="img/why-we/watch.png" alt="Часы"/>
+                <div class="advantages-item">
+                    <div class="advantages-item-img">
+                        <img src="img/advantages/watch.png" alt="Часы"/>
                     </div>
                     <h4>Профессиональные тренера</h4>
                     <p>Наши преподаватели имеют награды в конном спорте, и отличные отзывы среди наших учеников</p>
                 </div>
-                <div class="advantage-item">
-                    <div class="advantage-item-img">
-                        <img src="img/why-we/car.png" alt="Машина"/>
+                <div class="advantages-item">
+                    <div class="advantages-item-img">
+                        <img src="img/advantages/car.png" alt="Машина"/>
                     </div>
                     <h4>Бесплатная парковка</h4>
                     <p>У нас имеется просторная парковка, чтобы вы могли без проблем припарковать свой автомобиль</p>
@@ -195,10 +200,10 @@
                     </p>
                 </div>
             </div>
-            <button class="btn events-btn">записаться</button>
+            <button class="btn-standard">записаться</button>
         </div>
     </section>
-    <section class="visitors">
+    <section id="visitors" class="visitors">
 <!--        <div class="container">-->
             <h2 class="title visitors-title">Наши поситители</h2>
             <div class="visitors-top">
@@ -275,7 +280,7 @@
             </div>
         </div>
     </section>
-    <section class="feedback">
+    <section id="feedback" class="feedback">
         <img class="girl-horse" src="img/feedback/girl-dog.png" alt="image girl-dog">
         <img class="bush" src="img/feedback/bush.png" alt="">
         <img class="sky-top" src="img/feedback/sky-top.png" alt="sky-top">
@@ -293,7 +298,7 @@
                     <input class="feedback-data" required type="text" placeholder="Ваше имя"/>
                     <div class="error-form-feedback">Вводите цифры</div>
                     <input class="feedback-data" required type="tel" placeholder="Ваш телефон" pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}"/>
-                    <button class="btn">задать вопрос</button>
+                    <button class="btn-standard btn-feedback">задать вопрос</button>
 
                     <div class="checkbox-flex">
                         <input class="checkbox" name="alright" id="alright" type="checkbox">
@@ -344,10 +349,10 @@
                         <img src="img/reviews/foto1.png" alt="photo"/>
                         <div>
                             <p>Константин Сюткин</p>
-                            <a href="#">
+                            <a href="https://www.instagram.com/" target="_blank">
                                 <img src="img/reviews/instagram.png" alt="icon instagram"/>
                             </a>
-                            <a href="#">
+                            <a href="https://www.vk.com/" target="_blank">
                                 <img src="img/reviews/vk.png" alt="icon vk">
                             </a>
                         </div>
@@ -366,10 +371,10 @@
                         <img src="img/reviews/foto2.png" alt="photo"/>
                         <div>
                             <p>Валентина Сюткина</p>
-                            <a href="#">
+                            <a href="https://www.instagram.com/" target="_blank">
                                 <img src="img/reviews/instagram.png" alt="icon instagram"/>
                             </a>
-                            <a href="#">
+                            <a href="https://www.vk.com/" target="_blank">
                                 <img src="img/reviews/vk.png" alt="icon vk">
                             </a>
                         </div>
@@ -388,10 +393,10 @@
                         <img src="img/reviews/foto3.png" alt="photo"/>
                         <div>
                             <p>Светлана Мирная</p>
-                            <a href="#">
+                            <a href="https://www.instagram.com/" target="_blank">
                                 <img src="img/reviews/instagram.png" alt="icon instagram"/>
                             </a>
-                            <a href="#">
+                            <a href="https://www.vk.com/" target="_blank">
                                 <img src="img/reviews/vk.png" alt="icon vk">
                             </a>
                         </div>
@@ -420,21 +425,35 @@
     <img class="bush-r" src="img/footer/bush-right.png" alt="sticker"/>
     <div class="footer-top">
         <div class="container">
-            <div class="contacts">
+            <div id="contacts" class="contacts">
                 <h2 class="title">Контакты</h2>
-                <p class="address">ул. Ленина, 25, офис 65</p>
-                <p class="telephone">+7 (495) 000-00-00</p>
-                <p class="email">mail@somemail.com</p>
+                <a href="https://www.google.com/maps/place/MOVA/" target="_blank">
+                    <p class="address">ул. Ленина, 25, офис 65</p>
+                </a>
+                <a href="tel:+74950000000" target="_blank">
+                    <p class="telephone">+7 (495) 000-00-00</p>
+                </a>
+                <a href="mailto:mail@somemail.com" target="_blank">
+                    <p class="email">mail@somemail.com</p>
+                </a>
                 <p class="work-time">
                     <span>Пн-Пт: 10:00 - 19:00</span>
                     <span>Сб: 10:00 - 17:00 </span>
                     <span>Вс: выходной</span>
                 </p>
                 <div class="social-media">
-                    <img src="img/footer/icon-inst.svg" alt="instagram"/>
-                    <img src="img/footer/icon-youtube.svg" alt="youtube"/>
-                    <img src="img/footer/icon-whatsApp.svg" alt="whatsApp"/>
-                    <img src="img/footer/icon-vk.svg" alt="vk"/>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="img/footer/icon-inst.svg" alt="instagram"/>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="img/footer/icon-youtube.svg" alt="youtube"/>
+                    </a>
+                    <a href="https://www.whatsapp.com/?lang=ru" target="_blank">
+                        <img src="img/footer/icon-whatsApp.svg" alt="whatsApp"/>
+                    </a>
+                    <a href="https://www.vk.com/" target="_blank">
+                        <img src="img/footer/icon-vk.svg" alt="vk"/>
+                    </a>
                 </div>
             </div>
         </div>
@@ -445,16 +464,18 @@
                 <img src="img/footer/logo-footer.png" alt="logo maximus">
                 <div class="footer-menu">
                     <ul>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Услуги и цены</a></li>
-                        <li><a href="#">Фотоальбом</a></li>
-                        <li><a href="#">Кнтакты</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#advantages">Услуги и цены</a></li>
+                        <li><a href="#visitors">Фотоальбом</a></li>
+                        <li><a href="#contacts">Кнтакты</a></li>
                     </ul>
-                    <button>Заказать звонок</button>
+                    <a href="#feedback">
+                        <button>Заказать звонок</button>
+                    </a>
                 </div>
             </div>
-            <a class="footer-a" href="#">Соглашение на обработку персональных данных</a>
-            <a class="footer-a" href="#">Политика конфенденциальности</a>
+            <button class="footer-btn" href="#">Соглашение на обработку персональных данных</button>
+            <button class="footer-btn" href="#">Политика конфенденциальности</button>
         </div>
     </div>
 </footer>

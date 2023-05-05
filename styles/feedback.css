@@ -19,6 +19,7 @@
     min-width: 547px;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .form-feedback form h3 {
     font-family: 'Philosopher';
@@ -68,8 +69,14 @@
     text-align: start;
     color: var(--orange-text-color);
 }
-.form-feedback form .btn{
+.form-feedback form .btn-feedback{
     margin-bottom: 30px;
+}
+.btn-feedback{
+    width: 331px;
+    height: 70px;
+    font-size: 15px;
+    line-height: 15px;
 }
 .checkbox-flex{
     display: flex;
@@ -130,4 +137,30 @@
     position: absolute;
     left: 0px;
     top:80%;
+}
+
+@media (max-width: 1000px){
+
+}
+@media (max-width: 768px){
+    .btn-feedback{
+        width: 300px;
+        height: 64px;
+
+    }
+}
+@media (max-width: 480px){
+    .btn-feedback {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+}
+@media (max-width: 320px){
+    .btn-feedback{
+        width: 170px;
+        height: 43px;
+        font-size: 10px;
+        line-height: 10px;
+    }
 }
