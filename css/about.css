@@ -1,32 +1,64 @@
 .about h2{
     margin-bottom: 89px;
 }
-
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 30px;
+}
 .about-img{
+    height: 529px;
     position: relative;
     grid-column: 6 span;
+    grid-row: span 3;
 }
 .about-img img{
     position: absolute;
-    top:0;
-    left: -245px;
-    width: 871px;
-    height: 529px;
-}
-.about-text{
-    grid-column: 6 span;
-    display: flex;
-    flex-direction: column;
+    right: -76px;
+    bottom: 0;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*object-fit: fill;*/
+    /*object-position: 50% 50%;*/
 }
 .achievements{
+    grid-column: 7 / 6 span;
+    grid-row: span 2;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    column-gap: 27px;
-    grid-row-gap: 24px;
-    padding-left: 40px;
-    padding-bottom: 41px;
+    column-gap: 30px;
 }
+.achievements-item{
+    grid-column: 3 span;
+}
+
+/*.about-img{*/
+/*    position: relative;*/
+/*    grid-column: 6 span;*/
+/*}*/
+/*.about-img img{*/
+/*    position: absolute;*/
+/*    top:0;*/
+/*    left: -245px;*/
+/*    width: 871px;*/
+/*    height: 529px;*/
+/*}*/
+/*.about-text{*/
+/*    grid-column: 6 span;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+/*.achievements{*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(2, 1fr);*/
+/*    grid-template-rows: repeat(2, 1fr);*/
+/*    column-gap: 27px;*/
+/*    grid-row-gap: 24px;*/
+/*    padding-left: 40px;*/
+/*    padding-bottom: 41px;*/
+/*}*/
 .achievements-item h3{
     font-family: 'Philosopher';
     font-weight: 700;
@@ -45,7 +77,9 @@
     font-size: 15px;
     line-height: 28px;
     color: #7E7E7E;
-    padding-left: 55%;
+    /*padding-left: 55%;*/
+    grid-column: 7 / 6 span;
+    z-index: 1;
 }
 @media (max-width: 1000px){
     .about h2 {
@@ -73,16 +107,16 @@
     .about-p span{
         display: block;
     }
-    .about-img{
-        position: relative;
-    }
-    .about-img img{
-        position: absolute;
-        left: -81px;
-        top: -48px;
-        width: 584px;
-        height: 386px;
-    }
+    /*.about-img{*/
+    /*    position: relative;*/
+    /*}*/
+    /*.about-img img{*/
+    /*    position: absolute;*/
+    /*    left: -81px;*/
+    /*    top: -48px;*/
+    /*    width: 584px;*/
+    /*    height: 386px;*/
+    /*}*/
     .about-content{
         margin-bottom: 35px;
     }

@@ -1,68 +1,10 @@
-.horse{
-    position: absolute;
-    width: 557px;
-    height: 671px;
-    left: 973px;
-    top: 181px;
-}
-.barn{
-    position: absolute;
-    width: 428px;
-    height: 192px;
-    left: 337px;
-    top: 596px;
-}
-.trees{
-    /*display: none;*/
-    position: absolute;
-    width: 389px;
-    height: 288px;
-    left: -1px;
-    top: 454px;
-}
-.little-horse{
-    position: absolute;
-    width: 213px;
-    height: 209px;
-    left: 719px;
-    top: 557px;
-}
-.gull{
-    position: absolute;
-    width: 272px;
-    height: 86px;
-    left: 1409px;
-    top: 157px;
-}
-.clouds-img{
-    position: absolute;
-    width: 100%;
-    height: 170px;
-    left: 0px;
-    top: 688px;
-
-}
-.bush-right-img{
-    position: absolute;
-    width: 211px;
-    height: 435px;
-    left: 0px;
-    top: 449px;
-}
-.bush-left{
-    position: absolute;
-    width: 211px;
-    height: 435px;
-    left: 0px;
-    top: 449px;
-}
 .btn-menu{
     display: none;
 }
-.header{
+header{
     position: relative;
-    min-height: 948px;
-    background-image: url("../img/header-img1920/bg-clean.png");
+    /*min-height: 948px;*/
+    background-image: url("../img/header-img1920/bg-1920.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,46 +68,11 @@ nav{
     color: var(--gray-text-color);
     text-align: center;
 }
-.horse{
-    position: absolute;
-    width: 557px;
-    height: 671px;
-    left: 973px;
-    top: 181px;
-}
-.gull{
-    position: absolute;
-    width: 272px;
-    height: 86px;
-    left: 1409px;
-    top: 157px;
-}
-.clouds-img{
-    display: block;
-    position: absolute;
-    width: 1920px;
-    height: 170px;
-    left: 0;
-    top: 688px;
-}
-.bush-left{
-    position: absolute;
-    width: 211px;
-    height: 435px;
-    left: 0;
-    top: 449px;
-}
-.bush-right-img{
-    display: block;
-    position: absolute;
-    width: 167px;
-    height: 632px;
-    left: 1753px;
-    top: 241px;
-}
+
 .header__content{
     grid-column: 7 span;
     padding-top: 88px;
+    padding-bottom: 450px;
 }
 .header__title{
     font-family: 'Philosopher';
@@ -194,16 +101,39 @@ nav{
     height: 1px;
     background-color: #8F8F8F;
 }
+.horse{
+    position: absolute;
+    width: 557px;
+    height: 671px;
+    right: 19%;
+    bottom: 11%;
+}
+.gull{
+    position: absolute;
+    width: 272px;
+    height: 86px;
+    right: 8%;
+    bottom: 80%;
+}
+.bush-right{
+    position: absolute;
+    width: 10%;
+    height: 60%;
+    right: 0;
+    bottom: 0;
+}
+.bush-left{
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    left: 0px;
+    top: 489px;
+}
 
-
-/*@media (min-width: 1450px) and (max-width: 1000px){*/
 @media (max-width: 1000px){
-    .header{
-        min-height: 620px;
-        background-image: url("../img/header-img1920/background1000.png");
-    }
     .header__content{
         padding-top: 51px;
+        padding-bottom: 278px;
     }
     .header__title{
         margin-bottom: 30px;
@@ -216,17 +146,11 @@ nav{
         line-height: 140%;
         max-width: 520px;
     }
-    .btn {
-        width: 218px;
-        height: 60px;
-        font-size: 13px;
-        line-height: 32px;
-    }
     .horse{
         width: 365px;
         height: 437px;
-        left: 616px;
-        top: 188px;
+        right: 5%;
+        bottom: 11%;
     }
     .bush-left{
         width: 100px;
@@ -234,55 +158,23 @@ nav{
         left: 0px;
         top: 418px;
     }
-    .bush-right-img{
+    .bush-right{
         position: absolute;
         width: 61px;
         height: 229px;
-        left: 938px;
-        top: 402px;
-    }
-    .clouds-img{
-        position: absolute;
-        width: 100%;
-        height: 135px;
-        left: 0px;
-        top: 501px;
+        right: 0;
+        bottom: 10%;
     }
     .gull{
         width: 165px;
         height: 52px;
-        left: 816px;
-        top: 119px;
     }
-    .barn{
-        display: block;
-        position: absolute;
-        width: 259px;
-        height: 116px;
-        left: 280px;
-        top: 458px;
-    }
-    .trees{
-        display: block;
-        position: absolute;
-        width: 212px;
-        height: 157px;
-        left: 75px;
-        top: 408px;
-    }
-    .little-horse{
-        display: block;
-        position: absolute;
-        width: 114px;
-        height: 111px;
-        left: 503px;
-        top: 445px;
-    }
-
 }
 @media (max-width: 768px){
     .header__content{
         grid-column: 3 span;
+        padding-bottom: 217px;
+        padding-top: 41px;
     }
     .logo img{
         width: 120px;
@@ -313,9 +205,6 @@ nav{
         line-height: 13px;
         text-align: end;
     }
-    .header__content{
-        padding-top: 41px;
-    }
     .header__title{
         margin-bottom: 20px;
         font-size: 37px;
@@ -333,18 +222,10 @@ nav{
         top: 10px;
         width: 15px;
     }
-    .btn {
-        width: 180px;
-        height: 45px;
-        font-size: 10px;
-        line-height: 32px;
-    }
-
     .horse{
         width: 308px;
         height: 364px;
-        left: 408px;
-        top: 105px;
+
     }
     .bush-left{
         width: 68px;
@@ -352,50 +233,22 @@ nav{
         left: -12px;
         top: 359px;
     }
-    .bush-right-img{
+    .bush-right{
         width: 42px;
         height: 160px;
-        left: 725px;
-        top: 305px;
-    }
-    .clouds-img{
-        width: 100%;
-        height: 114px;
-        left: 0;
-        top: 373px;
     }
     .gull{
         width: 126px;
         height: 40px;
-        left: 602px;
-        top: 95px;
-    }
-
-    .barn{
-        width: 207px;
-        height: 93px;
-        left: 127px;
-        top: 348px;
-    }
-    .trees{
-        width: 158px;
-        height: 117px;
-        left: -18px;
-        top: 333px;
-    }
-    .little-horse{
-        width: 114px;
-        height: 111px;
-        left: 299px;
-        top: 330px;
-    }
-    .header{
-        position: relative;
-        min-height: 539px;
-        background-image: url("../img/header-img1920/bg-clean.png");
     }
 }
 @media (max-width: 480px){
+    header{
+        background-image:url("../img/header-img1920/bg-1920.jpg"), url("../img/header-img1920/bg-clean.png");
+        background-size: 863px 421px, cover;
+        background-position: -127px 194px, center;
+        background-repeat: no-repeat;
+    }
     .logo{
         margin-top: 15px;
     }
@@ -454,6 +307,10 @@ nav{
     .btn-menu i:after {
         bottom: -2px;
     }
+    nav{
+        width: 100%;
+        justify-content: end;
+    }
     .nav__link__tel{
         font-size: 11px;
         line-height: 13px;
@@ -468,8 +325,19 @@ nav{
     .header_container{
         justify-content: start;
     }
+
     .header__content{
         padding-top: 106px;
+        padding-bottom: 205px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .grid{
+        display: flex;
+        justify-content: center;
     }
     .header__title{
         width: 389px;
@@ -512,17 +380,11 @@ nav{
         top: 446px;
         z-index: 2;
     }
-    .bush-right-img{
+    .bush-right{
         width: 34px;
         height: 131px;
         left: 446px;
         top: 459px;
-    }
-    .clouds-img{
-        width: 100%;
-        height: 51px;
-        left: 0;
-        top: 538px;
     }
     .gull{
         width: 101px;
@@ -531,37 +393,23 @@ nav{
         top: 100px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
-    .barn{
-        width: 207px;
-        height: 93px;
-        left: -1px;
-        top: 453px;
-    }
-    .trees{
-        width: 158px;
-        height: 117px;
-        left: -79px;
-        top: 419px;
-        z-index: 1;
-    }
-    .little-horse{
-        width: 93px;
-        height: 90px;
-        left: 186px;
-        top: 443px;
-    }
-    .header{
-        min-height: 587px;
-        background-image: url("../img/header-img1920/background1000.png");
-    }
 }
 @media (max-width: 320px) {
-
+    .header_container{
+        justify-content: space-between;
+    }
+    .header__content{
+        padding-bottom: 230px;
+    }
+    nav{
+       display: none;
+    }
     .schedule{
         display: none;
     }
     .btn-menu{
         margin-left: 114px;
+        margin-right: 0;
         padding-right: 10px;
     }
     .header__title{
@@ -577,32 +425,17 @@ nav{
         padding: 10px 0 20px 0;
         margin:0 auto;
     }
-
     .horse{
-        width: 157px;
-        height: 188px;
-        left: 99px;
-        top: 380px;
-        z-index: 2;
+        display: none;
     }
     .bush-left{
-        width: 68px;
-        height: 141px;
-        left: -28px;
-        top: 456px;
-        z-index: 2;
+        display: none;
     }
-    .bush-right-img{
-        width: 34px;
-        height: 131px;
-        left: 286px;
-        top: 465px;
+    .bush-right{
+        display: none;
     }
     .clouds-img{
-        width: 319px;
-        height: 51px;
-        left: 0px;
-        top: 540px;
+        display: none;
     }
     .gull{
         width: 101px;
@@ -611,25 +444,10 @@ nav{
         top: 100px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
-    .barn{
-        width: 207px;
-        height: 93px;
-        left: -81px;
-        top: 451px;
-        z-index: 1;
-    }
-    .trees{
-        width: 158px;
-        height: 117px;
-        left: -130px;
-        top: 410px;
-        z-index: 2;
-    }
-    .little-horse{
-        display: none;
-    }
-    .header{
-        min-height: 590px;
-        background-image: url("../img/header-img1920/background1000.png");
+    header{
+        background-image: url("../img/header-img1920/bg-320.jpg");
+        background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
     }
 }

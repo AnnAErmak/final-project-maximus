@@ -79,7 +79,11 @@ li {
     max-width: 1170px;
     margin: 0 auto;
 }
-
+body{
+    /*width: 100vw;*/
+    max-width: 1920px;
+    margin: 0 auto;
+}
 .grid{
     display: grid;
     grid-template-columns: repeat(12, 1fr);

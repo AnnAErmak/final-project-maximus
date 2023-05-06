@@ -59,9 +59,34 @@ footer{
     justify-content: end;
     gap: 13px;
 }
-/*.social-media a:hover{*/
-/*    background: linear-gradient(180deg, #9BCFFF 0%, #FFC700 0.01%, #FF9900 100%);*/
-/*}*/
+.social-media a{
+    width: 32px;
+    height: 32px;
+}
+.social-media .instagram{
+    background: url('../img/footer/icon-inst.svg') no-repeat center;
+}
+.social-media .instagram:hover{
+    background: url('../img/footer/icon-inst-hover.svg') no-repeat center;
+}
+.social-media .youtube{
+    background: url('../img/footer/icon-youtube.svg') no-repeat center;
+}
+.social-media .youtube:hover{
+    background: url('../img/footer/icon-youtube-hover.svg') no-repeat center;
+}
+.social-media .whatsapp{
+    background: url('../img/footer/icon-whatsApp.svg') no-repeat center;
+}
+.social-media .whatsapp:hover{
+    background: url('../img/footer/icon-whatsApp-hover.svg') no-repeat center;
+}
+.social-media .vk{
+    background: url('../img/footer/icon-vk.svg') no-repeat center;
+}
+.social-media .vk:hover{
+    background: url('../img/footer/icon-vk-hover.svg') no-repeat center;
+}
 .footer-bottom{
     background: #0B0B0B;
     padding: 25px 0;
