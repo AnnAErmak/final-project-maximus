@@ -59,17 +59,25 @@
     position: absolute;
     width: 305px;
     height: 530px;
-    left: calc(1% - 91px);
-    top: calc(100% - 528px);
+    right: 76%;
+    bottom: 0;
     z-index: 1;
 }
 .boy-with-horse{
     position: absolute;
     width: 372px;
     height: 532px;
-    left: 1270px;
-    top: 1174px;
+    right: 5%;
+    bottom: 0;
     z-index: 1;
+}
+.events-sky{
+    position: absolute;
+    width: 100%;
+    height: 168px;
+    right: 0;
+    bottom: -1%;
+    z-index: 2;
 }
 @media (max-width: 1000px){
     .events{
@@ -96,28 +104,28 @@
         padding: 15px 25px 25px 33px;
     }
     .girl-with-horse{
-        position: absolute;
+        /*position: absolute;*/
         width: 202px;
         height: 350px;
-        left: calc(1% - 7px);
-        top: calc(100% - 351px);
-        z-index: 1;
+        /*left: calc(1% - 7px);*/
+        /*top: calc(100% - 351px);*/
+        /*z-index: 1;*/
     }
     .boy-with-horse{
-        position: absolute;
+        /*position: absolute;*/
         width: 239px;
         height: 342px;
-        left: 752px;
-        top: 1037px;
-        z-index: 1;
+        /*left: 752px;*/
+        /*top: 1037px;*/
+        /*z-index: 1;*/
     }
     .events-sky{
-        position: absolute;
+        /*position: absolute;*/
         width: 1000px;
         height: 120px;
-        left: 0;
-        top: 1282px;
-        z-index: 1;
+        /*left: 0;*/
+        /*top: 1282px;*/
+        /*z-index: 1;*/
     }
 }
 @media (max-width: 768px){
@@ -166,6 +174,7 @@
 @media (max-width: 480px){
     .events{
         padding-bottom: 172px;
+        overflow: hidden;
     }
     .events-tittle {
         padding-top: 80px;
@@ -198,28 +207,27 @@
         padding: 15px 10px 20px 10px;
     }
     .girl-with-horse{
-        position: absolute;
+        /*position: absolute;*/
         width: 113px;
         height: 196px;
-        left: 0;
-        top: calc(100% - 196px);
-        z-index: 1;
+        /*left: 0;*/
+        /*top: calc(100% - 196px);*/
+        /*z-index: 1;*/
     }
     .boy-with-horse{
-        position: absolute;
+        /*position: absolute;*/
         width: 139px;
         height: 199px;
-        left: 318px;
-        top: 1240px;
-        z-index: 1;
+        right: -9%;
+        bottom: 0;
     }
     .events-sky{
-        position: absolute;
+        /*position: absolute;*/
         width: 768px;
         height: 87px;
-        left: 0;
-        top: 1354px;
-        z-index: 1;
+        /*left: 0;*/
+        /*top: 1354px;*/
+        /*z-index: 1;*/
     }
 }
 @media (max-width: 320px){
@@ -231,5 +239,11 @@
         width: 250px;
         height: 150px;
         left: 24px;
+    }
+    .boy-with-horse{
+        width: 139px;
+        height: 199px;
+        right: -16%;
+        bottom: 0;
     }
 }

@@ -11,7 +11,11 @@
 .advantages__sub-title{
     padding-bottom: 76px;
 }
-
+.advantages-content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 30px;
+}
 .advantages-item{
     grid-column: 3 span;
     display: flex;
@@ -57,7 +61,7 @@
         font-size: 13px;
         line-height: 20px;
     }
-    .advantages{
+    .advantages-content{
         grid-template-columns: repeat(4, 1fr);
         column-gap: 20px;
     }
@@ -79,7 +83,9 @@
     }
 }
 @media (max-width: 480px){
-    .advantages{
+    .advantages-content{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         row-gap: 40px;
     }
     .advantages-item{
