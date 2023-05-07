@@ -48,10 +48,30 @@
 }
 
 @media (max-width: 1000px){
-
+    .horses{
+        overflow: hidden;
+    }
+    .horses h2{
+        padding-top: 120px;
+        padding-bottom: 65px;
+    }
+    .horses-top .container .grid{
+        column-gap:20px;
+    }
+    .horses-list-items{
+        padding-top: 104%;
+    }
+    .horses-list-items img{
+        left: 10%;
+        width: 243px;
+        height: 320px;
+    }
 }
 @media (max-width: 768px){
-
+    .horses-top .container .grid{
+        display: flex;
+        gap: 20px;
+    }
 }
 @media (max-width: 480px){
 

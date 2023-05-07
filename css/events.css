@@ -207,27 +207,18 @@
         padding: 15px 10px 20px 10px;
     }
     .girl-with-horse{
-        /*position: absolute;*/
         width: 113px;
         height: 196px;
-        /*left: 0;*/
-        /*top: calc(100% - 196px);*/
-        /*z-index: 1;*/
     }
     .boy-with-horse{
-        /*position: absolute;*/
         width: 139px;
         height: 199px;
         right: -9%;
         bottom: 0;
     }
     .events-sky{
-        /*position: absolute;*/
         width: 768px;
         height: 87px;
-        /*left: 0;*/
-        /*top: 1354px;*/
-        /*z-index: 1;*/
     }
 }
 @media (max-width: 320px){

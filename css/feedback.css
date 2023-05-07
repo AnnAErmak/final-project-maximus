@@ -1,7 +1,8 @@
 .feedback{
+    overflow: hidden;
     position: relative;
     margin-top: 140px;
-    background-image: url("../img/feedback/bg-feetback.png");
+    background-image: url("../img/feedback/bg-feetback.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,40 +120,82 @@
     position: absolute;
     width: 1674px;
     height: 644px;
-    left: 0px;
+    left: 1%;
     top: 208px;
 }
-.bush{
+.fir-tree{
     position: absolute;
     width: 297px;
     height: 371px;
-    left: 1305px;
-    top: 522px;
+    left: 70%;
+    top: 55%;
+    z-index: 2;
 }
-.sky-top{
-    position: absolute;
-
-}
-.sky-bottom{
-    position: absolute;
-    left: 0px;
-    top:80%;
-}
-
 @media (max-width: 1000px){
-
+    .girl-horse{
+        width: 1397px;
+        height: 538px;
+        left: -20%;
+        top: 356px;
+    }
+    .fir-tree{
+        width: 213px;
+        height: 267px;
+        left: 84%;
+        top: 71%;
+    }
+    .feedback .container .grid{
+        display: flex;
+        justify-content: end;
+    }
+    .form-feedback form{
+        max-width: 450px;
+        min-width: 450px;
+        /*flex-grow: 0;*/
+    }
 }
 @media (max-width: 768px){
     .btn-feedback{
         width: 300px;
         height: 64px;
-
     }
+    .fir-tree{
+        display: none;
+    }
+    .girl-horse{
+        width: 1253px;
+        height: 538px;
+        left: -1%;
+        top: 759px;
+        z-index: 2;
+    }
+    .form-feedback form{
+       margin: 140px 0 500px 0;
+    }
+    .feedback .container .grid{
+        justify-content: center;
+    }
+    .form-feedback form h3 {
+        font-size: 32px;
+    }
+    .form-feedback form p {
+        font-size: 13px;
+        padding-bottom: 25px;
+    }
+
 }
 @media (max-width: 480px){
     .btn-feedback {
         font-size: 13px;
         line-height: 15px;
+    }
+    .girl-horse{
+        width: 1224px;
+        height: 490px;
+        left: -35%;
+    }
+    .form-feedback form h3 {
+        font-size: 27px;
     }
 
 }
@@ -162,5 +205,35 @@
         height: 43px;
         font-size: 10px;
         line-height: 10px;
+    }
+    .form-feedback form h3 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .form-feedback form{
+        max-width: 300px;
+        min-width: 300px;
+        padding: 45px 37px;
+    }
+    .form-feedback form .feedback-data {
+        width: 266px;
+    }
+    .error-form-feedback{
+        display: none;
+    }
+    .checkbox+label {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .checkbox-flex {
+        width: 266px;
+    }
+    .girl-horse {
+        width: 803px;
+        height: 309px;
+        top: 67%;
+    }
+    .form-feedback form{
+        margin-bottom: 290px;
     }
 }
