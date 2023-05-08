@@ -2,6 +2,9 @@ footer{
     overflow: hidden;
     position: relative;
 }
+footer .container > p{
+    display: none;
+}
 .footer-top{
     padding: 70px 0;
     background: url("../img/footer/bg-footer.jpg");
@@ -14,6 +17,9 @@ footer{
     padding: 50px 70px 72px 72px;
     background: #fff;
     max-width: 511px;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 16px 51px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
 }
 .contacts h2{
     position: relative;
@@ -91,6 +97,7 @@ footer{
 .footer-bottom{
     background: #0B0B0B;
     padding: 25px 0;
+
 }
 .flex{
     display: flex;
@@ -135,29 +142,30 @@ footer{
     cursor: pointer;
 }
 
-.sticker{
-    position: absolute;
-    width: 63px;
-    height: 92px;
-    left: 1210px;
-    top: 516px;
-}
 .bush-l{
     position: absolute;
-    width: 593px;
-    height: 358px;
-    left: -131px;
-    top: 571px;
+    width: 411px;
+    height: 340px;
+    left: 0;
+    top: 50%;
 }
 .bush-r{
     position: absolute;
-    width: 303px;
-    height: 722px;
-    left: 1599px;
-    top: 527px;
+    width: 174px;
+    height: 574px;
+    left: 91%;
+    top: 12%;
+
 }
 
 @media (max-width: 1000px){
+    .bush-l,
+    .bush-r{
+        display: none;
+    }
+    .contacts {
+        max-width: 500px;
+    }
 
 }
 @media (max-width: 768px){
@@ -166,11 +174,90 @@ footer{
         font-size: 13px;
         line-height: 15px;
     }
+    .contacts {
+        max-width: 354px;
+        padding: 40px;
+    }
+    .contacts h2{
+        font-size: 27px;
+        line-height: 36px;
+        margin-bottom: 0;
+    }
+    .contacts p{
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .social-media{
+        margin-top: 41px;
+    }
 }
 @media (max-width: 480px){
-
-
+    .footer-top{
+        /*background-image: url("../img/footer/bg-footer.jpg");*/
+        /*background-size: cover;*/
+        background-position: 69% -281px;
+    }
+    .footer-top{
+        padding-top: 320px;
+    }
+    .contacts{
+        margin: 0 auto;
+    }
+    .flex{
+        flex-direction: column-reverse;
+        gap: 30px;
+        margin-bottom: 32px;
+    }
+    .footer-menu{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    footer .container > p{
+        display: block;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .footer-btn{
+        display: block;
+        margin: 0 0 10px 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-btn + p{
+        padding: 93px 0 0 0;
+    }
 }
 @media (max-width: 320px){
+    .footer-top{
+        background-size: 1541px 520px;
+        background-position: 70% -139px;
+    }
+    .footer-menu ul{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        align-items: center;
+        margin: 0;
+    }
+    .contacts h2{
+        font-size: 24px;
+        line-height: 21px;
 
+    }
+    .contacts h2:after{
+        top: 35px;
+        left: 44%;
+    }
+    .contacts p{
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .social-media {
+        justify-content: center;
+    }
 }
