@@ -91,6 +91,30 @@
 }
 
 @media (max-width: 1000px){
+    .reviews-top{
+        display: flex;
+        column-gap: 20px;
+    }
+    .reviews-top-item{
+        max-width: 440px;
+        padding: 20px;
+    }
+    /*.reviews-top-item:last-child {*/
+    /*    position: static;*/
+    /*    max-width: 440px;*/
+    /*}*/
+    .reviews-top-item p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .center button{
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .contact div p{
+        font-size: 14px;
+        line-height: 21px;
+    }
 
 }
 @media (max-width: 768px){
