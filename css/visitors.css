@@ -1,15 +1,22 @@
+.visitors{
+    width: 100vw;
+    max-width: 1920px;
+}
 .visitors-title{
     padding: 150px 0 70px 0;
 }
 .visitors-top{
-    margin-bottom: 60px;
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 60px;
 }
 .visitors-top img{
-    /*width: 30%;*/
-    height: 188px;
+    height: 300px;
+}
+.disable{
+    display: none;
 }
 
 @media (max-width: 1000px){
@@ -23,6 +30,9 @@
     .visitors-top img:nth-child(9){
         flex-grow: 1;
     }
+    .visitors-top img{
+        height: 188px;
+    }
 }
 @media (max-width: 768px){
     .visitors-top img{
@@ -33,17 +43,93 @@
     }
 }
 @media (max-width: 480px){
-    .visitors-top img:nth-child(5),
-    .visitors-top img:nth-child(10){
+    .disable{
         display: block;
     }
-    .visitors-top img:nth-child(9){
+    /*.visitors-top img:nth-child(5),*/
+    /*.visitors-top img:nth-child(10){*/
+    /*    display: block;*/
+    /*}*/
+    /*.visitors-top img:nth-child(9){*/
+    /*    flex-grow: 0;*/
+    /*}*/
+    .visitors-top img{
+        height: 120px;
+    }
+    .elem1{
+        order: 1;
+    }
+    .elem2{
+        order: 2;
+    }
+    .elem3{
+        order: 3;
+    }
+    .elem4{
+        width: 145px;
+        order: 5;
+    }
+    .elem5{
+        display: none;
+    }
+    .elem8{
+        order: 5;
+    }
+    .elem9{
+        order: 6;
         flex-grow: 0;
     }
-    .visitors-top img{
-        height: 123px;
+    .elem7{
+        order: 7;
+        width: 190px;
+    }
+    .elem6{
+        order: 8;
+    }
+    .elem13{
+        order: 9;
+    }
+    .elem14{
+        order: 10;
+    }
+    .elem11{
+        order: 11;
+        width: 130px;
+    }
+    .elem12{
+        order: 12;
+    }
+    .visitors-top img:nth-child(9) {
+        flex-grow: 0;
     }
 }
 @media (max-width: 320px){
-
+    .elem13,
+    .elem14,
+    .elem11,
+    .elem12
+    {
+       display: none;
+    }
+    .elem3{
+        order: 4;
+    }
+    .elem4{
+        order: 3;
+    }
+    .elem8{
+        order: 6;
+    }
+    .elem9{
+        order: 5;
+    }
+    .elem6{
+        order: 7;
+    }
+    .visitors-top img:nth-child(odd){
+        width: 188px;
+    }
+    .visitors-top img:nth-child(even){
+        width: 129px;
+    }
 }
