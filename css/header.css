@@ -242,7 +242,25 @@ nav{
         height: 40px;
     }
 }
-@media (max-width: 480px){
+@media (max-width: 862px) {
+    .nav__list{
+        gap:20px;
+    }
+    
+}
+@media (max-width: 788px) {
+    .nav__list{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 612px) {
+    .nav__list{
+        margin-right: 10px;
+        gap:10px;
+    }
+}
+/*@media (max-width: 480px){*/
+@media (max-width: 572px) {
     header{
         background-image:url("../img/header-img1920/bg-1920.jpg"), url("../img/header-img1920/bg-clean.png");
         background-size: 863px 421px, cover;
@@ -394,7 +412,8 @@ nav{
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 }
-@media (max-width: 320px) {
+/*@media (max-width: 320px) {*/
+@media (max-width: 442px) {
     .header_container{
         justify-content: space-between;
     }
